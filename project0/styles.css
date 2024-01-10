@@ -11,7 +11,9 @@ h1{
     text-align: center;
 }
 
-ul {
+
+/*style top navigation*/
+.topnav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -19,11 +21,11 @@ ul {
     background-color: #333;
   }
   
-li {
+.topnav li {
     float: right;
   }
   
-li a {
+.topnav li a {
     display: block;
     color: white;
     text-align: center;
@@ -31,6 +33,38 @@ li a {
     text-decoration: none;
   }
   
-li a:hover {
+.topnav li a:hover {
     background-color: #111;
   }
+
+
+
+/*style google search image*/
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*style advanced form*/
+.form-inline {  
+  align-items: center;
+  float: left;
+}
+
+.form-inline label {
+  margin: 5px 10px 5px 0;
+  float:left;
+}
+
+.form-inline input {
+  vertical-align: middle;
+  margin: 5px 10px 5px 0;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+input[type=submit]:hover {
+  background-color: snow;
+}
